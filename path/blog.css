@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+
+}
+ul{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin: 25px;
+    list-style:none;
+    font-size: 20px;
+    text-transform:capitalize;
+    cursor: pointer;
+
+}
+nav ul li a:hover{
+color: rgb(126, 125, 125);
+}
+nav h1{
+    margin: 20px;
+    text-transform: capitalize;
+    
+}
+nav input{
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 3%;
+    border: none;
+    outline: none;
+}
+#main{
+    background-image: url("../images/indonesia.jpg");
+    width: 100%;
+    height: 90vh;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+#hero {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    margin-left:30%;
+    border: 3px solid black;
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border-radius: 20%;
+  }
+
+#hero h1 i{
+    margin-right: 15px;
+}
+#hero h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+
+#card-container{
+    width: 30%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 100px green;
+}
+.card-image img{
+    margin-top: 5px;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.card-image{
+    text-align: center;
+}
+
+.card-image img:hover{
+    transform: scale(1.05);
+}
+#cards{
+margin-top: 40px;
+display: flex;
+justify-content: space-evenly;
+}
+
+.card{
+    padding: 30px;
+    text-align: center;
+    
+
+}
+.card h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: capitalize;    
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+
+.card button:hover{
+    color: rgb(37, 24, 24);
+    background-color: rgb(153, 145, 145);
+}
+
+#blogs{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-right: 20px;
+}
+
+.footer a i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer a i:hover {
+    color:rgb(105, 105, 219);
+}
